@@ -51,7 +51,7 @@ public class JavaFxButtonApp extends Application {
         btnOk.setId("btnOk");
         btnOk.setOnAction((ActionEvent event) -> {
             boolean response = authenticateUser(txtUsername.getText(), txtPassword.getText());
-            System.out.println(response);
+            System.out.println("User Response: "+response);
         });
 
         /**
