@@ -132,6 +132,7 @@ public class JavaFxButtonApp extends Application {
         } catch (SQLException | ClassNotFoundException ex) {
             System.out.println("Not able to load driver");
         }
+        System.out.println("bdkhv");
         return con;
     }
 
